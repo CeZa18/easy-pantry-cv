@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# YOLO output
+runs/
+
+# Dataset images / annotations
+data/images/
+data/labels/
+
+# OS
+.DS_Store
+Thumbs.db
